@@ -1,0 +1,33 @@
+    1. nano to write a file(text or other)
+    2. chmod 777 (filename)  to access the file to all
+    3. echo to print
+    4. read to scan anything
+    5. ./(filename) to execute the file 
+    6. read -p “Anything here” to read anything with writing “Anything here”
+    7. $i to select the variable i
+    8. For Loop:
+for i in {1..5}
+do 
+echo $i
+done
+-----------------------
+for ((i=0;i<20;i++))
+do
+echo $i
+done
+9.  If/Else:
+If [  $a > $b ]
+then
+echo “a is larger”
+elif [ $a < $b ]
+echo “b is larger”
+else
+echo “a is equal to b”
+Fi
+
+10. 
+>	-gt
+<	-lt
+>=	-ge
+<=	-le
+==	-et

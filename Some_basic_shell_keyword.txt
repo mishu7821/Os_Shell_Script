@@ -1,0 +1,16 @@
+Pwd: Present working directory
+ls: list all from the directory
+cd: change directory
+cd /: root
+cd :root
+cd .. :up one level
+cd- :previous
+mkdir: make directory
+rmdir: remove directory
+touch :create a text file
+rm -r :delete directory with file
+cat >> filename: to write in a file also by creating
+cat filename: to read from the file
+nano filename : to edit the file by creating
+mv source destination: moving the file
+cp source destination: copy the file [the source can be a directory or can be a simple file]
